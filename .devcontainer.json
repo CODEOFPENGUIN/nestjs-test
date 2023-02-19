@@ -1,0 +1,21 @@
+{
+	"name": "vs-container-test",
+	"image": "node:18",
+	"appPort": [3000],
+	"settings": {
+		"terminal.integrated.shell.linux": "/bin/bash"
+	},
+	"forwardPorts": [3000],
+	"postCreateCommand": "yarn install",
+	"extensions": [
+		"alefragnani.Bookmarks",
+		"cssho.vscode-svgviewer",
+		"eamodio.gitlens",
+		"esbenp.prettier-vscode",
+		"Gruntfuggly.todo-tree",
+		"martinwepner.pascalcase-camelcase-to-snakecase-converter",
+		"maximus136.change-string-case",
+		"ms-vscode.vscode-typescript-next",
+		"richie5um2.vscode-statusbar-json-path"
+	]
+}
